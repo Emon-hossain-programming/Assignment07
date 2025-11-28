@@ -1,0 +1,92 @@
+[
+  {
+    "id": "T001",
+    "title": "Payment Gateway Failure on Checkout",
+    "description": "User reported that the payment button does nothing after clicking on it. Affecting crucial purchases.",
+    "customer": "Rashed Khan",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-20T10:30:00Z"
+  },
+  {
+    "id": "T002",
+    "title": "Request for Data Export Feature in CSV",
+    "description": "Customer needs the ability to export their monthly report data in a comma-separated value file format.",
+    "customer": "Shila Begum",
+    "priority": "Low",
+    "status": "In-Progress",
+    "createdAt": "2025-11-21T14:00:00Z"
+  },
+  {
+    "id": "T003",
+    "title": "Account Lockout due to Failed Logins",
+    "description": "The user forgot their password and is unable to use the reset link. Requires manual unlock.",
+    "customer": "Aminul Islam",
+    "priority": "Critical",
+    "status": "Closed",
+    "createdAt": "2025-11-22T08:15:00Z"
+  },
+  {
+    "id": "T004",
+    "title": "Invoice Amount Mismatch (October)",
+    "description": "The billed amount for October is $450, but the agreed-upon amount was $400. Billing correction needed.",
+    "customer": "Fatema Akhter",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-11-23T16:40:00Z"
+  },
+  {
+    "id": "T005",
+    "title": "Query about API Rate Limits for Enterprise Plan",
+    "description": "Customer is asking about the exact rate limit details for their new enterprise subscription.",
+    "customer": "Nadim Hasan",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2025-11-24T11:20:00Z"
+  },
+  {
+    "id": "T006",
+    "title": "UI Bug: Profile Editing Page Crashes",
+    "description": "When updating the date of birth field, the application throws an unhandled error and crashes.",
+    "customer": "Sumiya Zaman",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2025-11-25T09:55:00Z"
+  },
+  {
+    "id": "T007",
+    "title": "System slow down after recent update",
+    "description": "Performance has degraded significantly since the last system update, affecting all users in the organization.",
+    "customer": "Karim Hossain",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2025-11-26T12:05:00Z"
+  },
+  {
+    "id": "T008",
+    "title": "Missing Documentation for Webhook Integration",
+    "description": "The provided documentation link for setting up Webhooks is broken (404 Not Found).",
+    "customer": "Lamiya Akter",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "2025-11-27T10:10:00Z"
+  },
+  {
+    "id": "T009",
+    "title": "Subscription Cancellation Request",
+    "description": "Customer wishes to cancel the subscription immediately due to budget constraints.",
+    "customer": "Zahidul Haque",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-11-27T14:45:00Z"
+  },
+  {
+    "id": "T010",
+    "title": "Need help setting up custom domain",
+    "description": "Customer is confused about the DNS records required for custom domain mapping.",
+    "customer": "Tanuja Chowdhury",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-11-27T18:00:00Z"
+  }
+]

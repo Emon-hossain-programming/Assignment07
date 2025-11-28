@@ -2,7 +2,7 @@ import React from 'react';
 import backgroundIMG from '../../assets/vector1.png'
 import backgroundImg2 from '../../assets/vector2.png'
 
-const Banner = () => {
+const Banner = ({task,resolveData}) => {
     return (
         <div className='grid md:grid-cols-2 grid-cols-1 gap-5 mt-15'>
             <div 
@@ -35,7 +35,7 @@ const Banner = () => {
             className=' flex justify-center items-center h-[250px] w-full rounded-2xl '>
              <div>
                 <p className='text-2xl text-white'>In-Progress</p>
-                  <h2 className='text-center text-5xl font-bold text-white'>0</h2>
+                  <h2 className='text-center text-5xl font-bold text-white'>{task.length}</h2>
              </div>
             </div>
             <div
@@ -66,7 +66,7 @@ const Banner = () => {
             className='2 h-[250px]  w-full rounded-2xl flex justify-center items-center'>
              <div>
                  <h2 className='text-2xl text-white'>Resolved</h2>
-                 <h2 className='text-center text-5xl font-bold text-white'>0</h2>
+                 <h2 className='text-center text-5xl font-bold text-white'>{resolveData.length}</h2>
              </div>
             </div>
             
