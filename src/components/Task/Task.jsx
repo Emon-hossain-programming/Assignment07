@@ -1,15 +1,16 @@
 import React from 'react';
 
-const Task = ({task,removeHandle}) => {
+const Task = ({task,removeHandle,tickets}) => {
    
     
     return (
        <div>
         {
-            task.map(cart=><div className="card w-full bg-base-100 card-md shadow-sm mb-3">            
+            task.map(cart=><div className="card w-full bg-base-100 card-md shadow-sm mb-3 ">            
                  <div className="card-body">
                    <h2 className="card-title font-bold mb-3">{cart.title}</h2>
-                     <button onClick={()=>removeHandle(cart)} className="btn bg-[#02a53b] text-white">Complete</button>
+                     <button onClick={()=>removeHandle(cart,tickets)} className="btn bg-[#02a53b] text-white">Complete</button>
+                     <h2>{cart.time}</h2>
                  </div>
              </div> )
         }

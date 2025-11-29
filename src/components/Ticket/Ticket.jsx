@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Ticket = ({ticket,handleClick}) => {
     
   
@@ -23,8 +24,10 @@ const Ticket = ({ticket,handleClick}) => {
     
 
     return (
+       
         <div>
-              <div onClick={()=>handleClick(ticket)} className="card w-100% bg-base-100 card-xs shadow-sm flex justify-bewteen p-3 ">
+             
+              <div onClick={()=> handleClick(ticket)} className="card w-100% bg-base-100 card-xs shadow-sm flex justify-bewteen p-3 ">
           <div className='flex justify-between'>
             <h2 className='font-bold'>{ticket.title}</h2>
             <button className={`${status} rounded-2xl w-[88px] h-8 text-gray-200`}>
@@ -52,6 +55,7 @@ const Ticket = ({ticket,handleClick}) => {
 
         </div>
         </div>
+         
     );
 };
 
